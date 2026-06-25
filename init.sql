@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS counter_results (
+    id SERIAL PRIMARY KEY,
+    actual_value INTEGER NOT NULL,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
